@@ -47,7 +47,7 @@ const getResult = (req, res) => {
         else{
           const responsePayload = {
             code: 0,
-            msg: "success",
+            msg: "Success",
             records,
           };
         

@@ -30,7 +30,7 @@ describe("Test of the RESTFUL API:", () => {
 
     expect(response.statusCode).toBe(200);
     expect(response.body.code).toBe(0);
-    expect(response.body.msg).toBe("success");
+    expect(response.body.msg).toBe("Success");
     expect(response.body.records[0].totalCount).toBe(310);
   });
 
@@ -45,7 +45,7 @@ describe("Test of the RESTFUL API:", () => {
 
     expect(response.statusCode).toBe(200);
     expect(response.body.code).toBe(0);
-    expect(response.body.msg).toBe("success");
+    expect(response.body.msg).toBe("Success");
     expect(response.body.records.length).toBe(6);
   });
 
@@ -60,7 +60,7 @@ describe("Test of the RESTFUL API:", () => {
 
     expect(response.statusCode).toBe(200);
     expect(response.body.code).toBe(0);
-    expect(response.body.msg).toBe("success");
+    expect(response.body.msg).toBe("Success");
     expect(response.body.records[3].key).toBe("ibfRLaFT");
   });
 
